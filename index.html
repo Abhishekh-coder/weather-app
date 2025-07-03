@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="main-card">
+
+        <div id="search-mode">
+
+            <input type="text" id="search-input" placeholder="Enter city name">
+            <button id="search-button"><img src="search.png"></button>
+
+        </div>
+        
+        <div id="weather-mode">
+            <img id="weather-icon" src="rain.png">
+            <h1 class="tempweathermode">30°C</h1>
+            <h2 class="weathercityname">Mumbai</h2>
+            <div id="weather-details">
+                <div class="details">
+                    <div id="humidity-icon"> <img src="humidity.png"></div>
+                    <div class="text-details-weather">
+                         <p id="texthumidity">50%</p>
+                         <p>humidity</p>
+                    </div>
+                   
+                </div>
+                 <div class="details">
+                    <div id="wind-icon"> <img src="wind.png"></div>
+                    <div class="text-details-weather">
+                         <p id="textwind">15 km/hr</p>
+                         <p>wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
